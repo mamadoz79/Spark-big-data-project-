@@ -1,7 +1,7 @@
 import os
 
 def docx_action(file_path):
-    print(file_path)
+    os.system(f"python spark.py {file_path}")
 
 
 file_path = input('please enter file path:\n')
